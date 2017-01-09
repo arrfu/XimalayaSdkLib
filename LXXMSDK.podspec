@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/arrfu/XimalayaSdkLib"
   s.license      = "{:type => 'MIT',:file => 'LICENSE'}"
 
-  s.author             = { "arrfu" => "lujianfu@snaillove.com" }
+  s.author             = { "arrfu" => "root@arrfu.com" }
 
   s.platform     = :ios, "7.0"
 
