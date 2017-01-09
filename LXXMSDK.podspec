@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LXXMSDK"
-  s.version      = "1.1.1"
+  s.version      = "1.2.1"
   s.summary      = "the cocoapod for ximalaya sdk LXXMSDK."
 
 
@@ -22,7 +22,9 @@ Pod::Spec.new do |s|
 
 
 
-  s.source_files  =  "LXXMSDK/**/*"
+#  s.source_files  =  "LXXMSDK/**/*"
+s.source_files  =  "LXXMSDK/**/*.{h,m}"
+
 #s.exclude_files = "LXXMSDK/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
