@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LXXMSDK"
-  s.version      = "1.4.1"
+  s.version      = "1.5.1"
   s.summary      = "the cocoapod for ximalaya sdk LXXMSDK."
 
 
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/arrfu/XimalayaSdkLib.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/arrfu/XimalayaSdkLib.git", :tag => "#{s.version}" }
 
 
 
