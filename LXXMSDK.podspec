@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LXXMSDK"
-  s.version      = "1.7.1"
+  s.version      = "1.8.1"
   s.summary      = "the cocoapod for ximalaya sdk LXXMSDK."
 
 
@@ -52,6 +52,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
+  s.vendored_libraries = 'LXXMSDK/*.a'
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency 'FMDB' #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
 
